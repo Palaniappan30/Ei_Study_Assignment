@@ -2,6 +2,12 @@
 
 I'm Palaniappan AN, a Computer and Communication Engineering student at Amrita School of Engineering with expertise in Python, Java and web development. My passion lies in full-stack development, data science, machine learning, and VLSI design, and I'm always eager to take on new challenges in these fields.
 
+Exercise 1 :
+Design Pattern
+   1. Creational Design - Implemented use cases for Factory test and Singleton Pattern.
+   2. Behavioural Design - Implemented use cases for Mediator and Observer Pattern.
+   3. Structural Design - Implemented use cases for Composite and Adapter Pattern.
+
 Exercise 2 : 
 Virtual Classroom Manager 
 Project Overview :
