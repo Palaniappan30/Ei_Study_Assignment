@@ -1,10 +1,3 @@
 Project Title: Privacy-Preserving Machine Learning Model in Cloud Environments.
 
-Privacy-Preserving Framework: Secure training and inference of Graph Neural Networks (GNNs) in cloud environments.
-Cloud-Based GNN Deployment: Enables GNN model execution directly in the cloud, ensuring privacy and scalability.
-Encrypted Data Processing: Utilizes encryption to protect sensitive data during both training and inference.
-Efficient Data Structures: Custom data structures to handle adjacency matrices efficiently, minimizing computational overhead.
-Scalability: Addresses the challenge of data sparsity and high complexity (O(N²)) in GNNs.
-Cryptographic Techniques: Employs advanced cryptographic methods for robust data security.
-Global Model Building: Supports building global graph models while maintaining strong privacy guarantees.
-Target Applications: Privacy-preserving machine learning solutions for cloud-based environments.
+This project presents a novel system for secure training and inference of Graph Neural Networks (GNNs) in cloud environments. The primary objective is to address privacy concerns by encrypting data and leveraging privacy-preserving cryptographic techniques, ensuring secure machine learning workflows. Our approach enables the deployment of GNN models directly in the cloud, efficiently handling complex relationships within data while safeguarding against data exposure and privacy threats. The project employs optimized data structures and advanced cryptographic methods to mitigate the computational overhead associated with adjacency matrices, enhancing both scalability and security. This solution contributes to privacy-preserving machine learning in distributed cloud environments, providing secure, efficient, and scalable methods for GNN training and inference.
