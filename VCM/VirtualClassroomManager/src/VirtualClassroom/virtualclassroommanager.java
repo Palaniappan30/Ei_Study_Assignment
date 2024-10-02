@@ -122,10 +122,23 @@ public class virtualclassroommanager
                     System.out.println("Assignment Class "+assignmentClassName+" not found");
                     break;
                 case 4:
-                    System.out.print("Enter student ID: ");
-                    String studentIdForSubmission = scanner.nextLine();
                     System.out.print("Enter class name: ");
                     String classNameForSubmission = scanner.nextLine();
+                    boolean found=false;
+                    for (Assignment a : assignments) {
+                    if (a.getClassName().equals(classNameForSubmission))
+                    {
+                        found=true;
+                        break;
+                    }
+                    }
+                    if(!found)
+                    {
+                        System.out.println("Class name "+classNameForSubmission+" has not scheduled any assignment ");
+                        break;
+                    }
+                    System.out.print("Enter student ID: ");
+                    String studentIdForSubmission = scanner.nextLine();
                     System.out.print("Enter assignment details: ");
                     String assignmentDetailsForSubmission = scanner.nextLine();
 
